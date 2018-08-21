@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav>li>a {
   padding: 0px;
+  
 }
 
 .navbar-brand {
@@ -325,14 +326,6 @@ h3.txt-tl {
   background: url('../img/6627(3).jpg');
   padding-top: 160px;
   padding-bottom: 160px;
-  /* -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */ 
 }
 
 .bg-image-3 {
@@ -345,12 +338,17 @@ h3.txt-tl {
 }
 
 .bg-image-4 {
-  /* background: url('../img/1425.jpg'); */
-  /* padding-top: 110px; */
   background-image: url('../img/1425.jpg');
   padding-bottom: 20px;
   background-size: 100% 100%;
 }
+
+.bg-image-5 {
+  background-image: url('../img/3.1.jpg');
+  padding-bottom: 20px;
+  background-size: 100% 100%;
+}
+
 .product-head{
   margin-top: 300px;
 }
@@ -362,6 +360,18 @@ h3.txt-tl {
   background-size: cover;
   color: #fff;
   background-color: #3a3d45;
+}
+
+.drop-down{
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 100%;
+  right: 12px;
+  top: -5px;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
 }
 
 .section {
